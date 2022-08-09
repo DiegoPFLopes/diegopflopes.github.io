@@ -50,7 +50,6 @@ body{
 .menu li a {
     padding: 17px;
     color: white;
-    text-decoration: none;
     font-size: 14px;
 
 
@@ -62,7 +61,7 @@ body{
 
 .menu li:hover .submenu {
     display: block;
-    text-decoration: none;
+    
 
 }
 
@@ -73,9 +72,6 @@ body{
     top: 34px;
     left: 0;
     background: #3276fb;
+    list-style: none;
 
-}
-
-.submenu li a {
-  text-decoration: none;
 }
