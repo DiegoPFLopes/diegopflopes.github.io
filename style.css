@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: linear-gradient(180deg, rgb(33, 136, 67) 19%, rgba(27, 227, 87, 0.969625350140056) 44%, rgba(129, 182, 19, 1) 100%);
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 100px;
+    border: 3px solid white;
+    box-shadow: 0 0 30px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', 'cursive';
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 2px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+    margin-left: 500px; /* Reduzi a margem para telas menores */
+    margin-right: 500px; /* Reduzi a margem para telas menores */
+  
+    
+}
+
+.social img {
+    width: 40px;
+}
+
+.links-list {
+    list-style: none;
+    text-align: center;
+  
+}
+
+.links-list li {
+    margin: 10px 0; /* Reduzi a margem vertical para telas menores */
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgba(69, 143, 69, 1);
+    font-weight: bold;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 30px rgb(8, 8, 8);
+    margin-left: 550px; /* Reduzi a margem para telas menores */
+    margin-right: 550px; /* Reduzi a margem para telas menores */
+}
+
+.links-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #191919;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 100px; /* Reduzi a margem para telas menores */
+}
+
+.footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Media query para telas menores, como dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .avatar {
+        width: 80px;
+    }
+    .social {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .links-list li {
+        margin: 5px 0;
+    }
+    .links-list li a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+}
